@@ -116,7 +116,7 @@ def pregunta_04():
         'learning_rate': ['adaptative'],  
         'momentum': [0.7, 0.8, 0.9],  
         'learning_rate_init': [0.01, 0.05, 0.1],  
-        'max_iter': 5000,  
+        'max_iter': [5000],  
         'early_stopping': True,  
     }
 
