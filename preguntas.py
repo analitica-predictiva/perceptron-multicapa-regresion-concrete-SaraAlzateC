@@ -112,8 +112,8 @@ def pregunta_04():
 
     param_grid = {
         'hidden_layer_sizes':list(range(1,9)),  
-        'activation': 'relu',  
-        'learning_rate': 'adaptative',  
+        'activation': ['relu'],  
+        'learning_rate': ['adaptative'],  
         'momentum': [0.7, 0.8, 0.9],  
         'learning_rate_init': [0.01, 0.05, 0.1],  
         'max_iter': 5000,  
